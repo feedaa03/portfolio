@@ -1,0 +1,110 @@
+:root {
+  --bg: #121212;
+  --main:rgb(150, 85, 85);
+  --accent: #873131;
+  --text: #f0f0f0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background: #440707;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.logo {
+  color: var(--main);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover, .navbar a.active {
+  color: var(--accent);
+}
+
+section {
+  padding: 5rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: var(--main);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.8rem;
+}
+
+.home {
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+}
+
+.home h1 span {
+  color: var(--accent);
+}
+
+.typing-text span {
+  color: var(--main);
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 20px;
+  margin-top: 1.2rem;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--main);
+  color: black;
+}
+
+.social-icons a, .contact-links a {
+  font-size: 1.8rem;
+  margin: 0 1rem;
+  color: var(--main);
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover, .contact-links a:hover {
+  color: var(--accent);
+  transform: scale(1.2);
+}
+
+.contact-links {
+  text-align: center;
+  margin-top: 1rem;
+}
