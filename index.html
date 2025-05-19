@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -21,6 +21,7 @@
       <a href="#skills">Skills</a>
       <a href="#education">Education</a>
       <a href="#experience">Experience</a>
+     <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -31,15 +32,6 @@
       <h1>Hi, I'm <span>Feda</span></h1>
       <h3 class="typing-text">I'm a <span></span></h3>
       <p>i am Passionate learner in front-end development with skills in HTML, CSS, JavaScript, and more. I love creating clean and responsive web pages </p>
-
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/feedaa03" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="mailto:realfedaa@gmail.com"><i class="fas fa-envelope"></i></a>
-      </div>
-
-      <a href="#contact" class="btn">Let's Connect</a>
-    </div>
   </section>
 
   <!-- Skills Section -->
@@ -75,6 +67,37 @@
       <li>Misk Career Essentials – Misk</li>
     </ul>
   </section>
+
+<!-- Projects Section -->
+<section id="projects" style="padding: 4rem 2rem; background-color: #210303; color: #fff;">
+  <h2 style="text-align: center; margin-bottom: 2rem;">My Projects</h2>
+
+  <div style="max-width: 700px; margin: 0 auto; background: #873131; border-radius: 10px; padding: 2rem; box-shadow: 0 0 15px rgba(0,0,0,0.4);">
+    <h3 style="margin-bottom: 1rem; color: rgb(232, 198, 198);">📆 Date Converter</h3>
+    <p style="line-height: 1.6;">
+      A sleek and simple tool to convert dates between <strong>Hijri and Gregorian</strong> formats. Built with love to make Islamic and modern calendars easier to work with.
+    </p>
+    <div style="margin-top: 1.5rem;">
+      <a href="https://date-converter.onrender.com/" target="_blank" style="display: inline-block; margin-right: 1rem; padding: 0.7rem 1.2rem; background-color: #fff; color: #210303; font-weight: bold; border-radius: 8px; text-decoration: none;">🔗 Live Demo</a>
+      <a href="https://github.com/feedaa03/date-converter" target="_blank" style="display: inline-block; padding: 0.7rem 1.2rem; background-color: #fff; color: #210303; font-weight: bold; border-radius: 8px; text-decoration: none;">📂 GitHub</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".typing-text span", {
+      strings: ["Front-End Developer", "Creative Coder", "Tech Enthusiast"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      backDelay: 1500,
+      loop: true
+    });
+  </script>
+  
+</body>
+</html>
 
   <!-- Contact Section -->
   <section id="contact">
